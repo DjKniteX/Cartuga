@@ -2,21 +2,114 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Cartuga - Web RPG</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.0/css/bulma.min.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cartuga - Web RPG</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.0/css/bulma.min.css">
+  <style>
+    body {
+      background-image: url("cartuga.png");
+    }
+
+  </style>
 </head>
 
 <body>
-    <div class="container">
+  <div class="container">
+    <!-- START NAV -->
+    <nav class="navbar is-white" style="background-color: #F2DEAD;">
+      <div class="navbar-brand">
+        <a class="navbar-item brand-text" href="#">
+          Cartuga - Web RPG
+        </a>
+        <div class="navbar-burger burger" data-target="navMenu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <div id="navMenu" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="index.html">
+            Home
+          </a>
+          <a class="navbar-item" href="game.html">
+            Play Now!
+          </a>
+        </div>
+      </div>
+    </nav>
+    <!-- END NAV -->
+
+    <!-- START ARTICLE FEED -->
+    <section class="articles">
+      <div class="column is-8 is-offset-2">
+
+        <!-- START PROMO BLOCK -->
+        <section class="hero is-link is-bold is-small promo-block">
+          <div class="hero-body">
+            <div class="container">
+              <h1 class="title">
+                Cartuga
+              </h1>
+              <h2 class="subtitle">
+                Developed by Nikki Xaysanasy using RPG Maker MV
+              </h2>
+            </div>
+          </div>
+        </section>
+        <!-- END PROMO BLOCK -->
+
+        <!-- START ARTICLE -->
+        <div class="card article">
+          <div class="card-content">
+            <div class="media-content has-text-centered">
+              <p class="title article-title">A quick and simple RPG that you can play in under one hour!</p>
+              <p class="subtitle is-6 article-subtitle">
+              </p>
+            </div>
+            <div class="media">
+              <div class="media-center" style="padding-left: 25%; margin-top: 5%">
+                <img src="rpgmaker400.jpg" class="author-image" alt="Placeholder image">
+              </div>
+            </div>
+
+            <div class="content article-body">
+              <h3 class="has-text-centered">Welcome to the World of Alexandria</h3>
+              <p>First game in a three part series, you play as the protaganist, Cartuga, who was inspired by the tales of his
+                Grandfather and his adventures into the New World. Realizing that you have the potential to become an adventurer
+                like him, you stumble upon the story about a forest nearby your village that was said to be the first place
+                the Angels have walked on the planet. Now you must go through the forest and Banish the Forest Demon once
+                and for all!
+              </p>
+              <ul>
+                <li>A Simple RPG that is made to be finished in under an hour.</li>
+                <li>Enjoy the simplistics storyline that will eventually evolve into a larger one!</li>
+                <li>Stock RPG Maker MV graphics and music for the nostalgia feel.</li>
+                <li>Created with the purpose on learning the engine</li>
+              </ul>
+              <h3 class="has-text-centered">Play Anywhere!</h3>
+              <p> Molestie ac feugiat sed lectus vestibulum. Feugiat sed lectus vestibulum mattis. Volutpat diam ut venenatis
+                tellus in metus vulputate. Feugiat in fermentum posuere urna nec. Pharetra convallis posuere morbi leo urna
+                molestie at. Accumsan lacus vel facilisis volutpat est velit egestas. Fermentum leo vel orci porta. Faucibus
+                interdum posuere lorem ipsum.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- END ARTICLE -->
+      </div>
+
+
+
+      <!-- Footer -->
+      <div class="container">
         <!-- START NAV -->
-        <nav class="navbar is-white">
+        <nav class="navbar is-white" style="background-color: #F2DEAD;">
           <div class="navbar-brand">
             <a class="navbar-item brand-text" href="#">
-              Cartuga - Web RPG         
             </a>
             <div class="navbar-burger burger" data-target="navMenu">
               <span></span>
@@ -26,83 +119,12 @@
           </div>
           <div id="navMenu" class="navbar-menu">
             <div class="navbar-start">
-              <a class="navbar-item" href="index.html">
-                Home
-              </a>
-              <a class="navbar-item" href="game.html">
-                Play Now!
+              <a class="navbar-item" href="index.html" style="color: black;">
+                &copy; Nikki X and Sky Nite Digital 2017
               </a>
             </div>
           </div>
         </nav>
-        <!-- END NAV -->
-    
-        <!-- START ARTICLE FEED -->
-        <section class="articles">
-            <div class="column is-8 is-offset-2">
-    
-              <!-- START PROMO BLOCK -->
-              <section class="hero is-link is-bold is-small promo-block">
-                <div class="hero-body">
-                  <div class="container">
-                    <h1 class="title">
-                       Cartuga
-                    </h1>
-                    <h2 class="subtitle">
-                      Developed by Nikki Xaysanasy using RPG Maker MV
-                    </h2>
-                  </div>
-                </div>
-              </section>
-              <!-- END PROMO BLOCK -->
-    
-              <!-- START ARTICLE -->
-              <div class="card article">
-                <div class="card-content">
-                  <div class="media">
-                    <div class="media-center">
-                        <img src="http://via.placeholder.com/400x400" class="author-image" alt="Placeholder image">
-                    </div>
-                    <div class="media-content has-text-centered">
-                      <p class="title article-title">A quick and simple RPG that you can play in under one hour!</p>
-                      <p class="subtitle is-6 article-subtitle">
-                      </p>
-                    </div>
-                  </div>
-    
-                <div class="content article-body">
-                    <h3 class="has-text-centered">Welcome to the World of Alexandria</h3>
-                    <p>First game in a three part series, you play as the protaganist, Cartuga, who was inspired by the tales of his Grandfather and his adventures into the New World.
-                            Realizing that you have the potential to become an adventurer like him, you stumble upon the story about a forest nearby your village that was said to be the first place the Angels have walked on the planet.
-                            Now you must go through the forest and Banish the Forest Demon once and for all!
-                        </p>
-                        <ul>
-                            <li>A Simple RPG that is made to be finished in under an hour.</li>
-                            <li>Enjoy the simplistics storyline that will eventually evolve into a larger one!</li>
-                            <li>Stock RPG Maker MV graphics and music for the nostalgia feel.</li>
-                            <li>Created with the purpose on learning the engine</li>
-                        </ul>
-                    <h3 class="has-text-centered">Play Anywhere!</h3>
-                    <p> Molestie ac feugiat sed lectus vestibulum. Feugiat sed lectus vestibulum mattis. Volutpat diam ut venenatis tellus in metus vulputate. Feugiat in fermentum posuere urna nec. Pharetra convallis posuere morbi leo urna molestie at. Accumsan lacus vel facilisis volutpat est velit egestas. Fermentum leo vel orci porta. Faucibus interdum posuere lorem ipsum.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <!-- END ARTICLE -->
-    
-
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="content has-text-centered">
-                <p>
-                    &copy; Nikki Xaysanasy &amp; Sky Nite Digital 2017
-                </p>
-            </div>
-        </div>
-    </footer>
-    </div>
 </body>
 
 </html>
