@@ -1,9 +1,134 @@
-<!DOCTYPE HTML>
-<head>
-
-</head>
-<body>
-<h1>COMING SOON</h1>
-</body>
-
-</html>
+<html>
+    
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Cartuga - Web RPG</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.0/css/bulma.min.css">
+      <style>
+        body {
+          background-image: url("cartuga.png");
+        }
+    
+      </style>
+    
+      <script>
+      document.addEventListener('DOMContentLoaded', function () {
+    
+      // Get all "navbar-burger" elements
+      var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+    
+      // Check if there are any navbar burgers
+      if ($navbarBurgers.length > 0) {
+    
+        // Add a click event on each of them
+        $navbarBurgers.forEach(function ($el) {
+          $el.addEventListener('click', function () {
+    
+            // Get the target from the "data-target" attribute
+            var target = $el.dataset.target;
+            var $target = document.getElementById(target);
+    
+            // Toggle the class on both the "navbar-burger" and the "navbar-menu"
+            $el.classList.toggle('is-active');
+            $target.classList.toggle('is-active');
+    
+          });
+        });
+      }
+    
+    });
+      </script>
+    </head>
+    
+    <body>
+      <div class="container">
+        <!-- START NAV -->
+        <nav class="navbar is-white is-transparent" style="background-color: #F2DEAD;">
+          <div class="navbar-brand">
+            <a class="navbar-item brand-text" href="#">
+              Cartuga - Web RPG
+            </a>
+            <div class="navbar-burger burger" data-target="navMenu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div id="navMenu" class="navbar-menu">
+            <div class="navbar-start">
+              <a class="navbar-item" href="index.html">
+                Home
+              </a>
+              <a class="navbar-item" href="game.html">
+                Play Now!
+              </a>
+            </div>
+          </div>
+        </nav>
+        <!-- END NAV -->
+    
+        <!-- START ARTICLE FEED -->
+        <section class="articles">
+          <div class="column is-8 is-offset-2">
+    
+            <!-- START PROMO BLOCK -->
+            <section class="hero is-link is-bold is-small promo-block">
+              <div class="hero-body">
+                <div class="container">
+                  <h1 class="title">
+                    Cartuga
+                  </h1>
+                  <h2 class="subtitle">
+                    Developed by Nikki Xaysanasy using RPG Maker MV
+                  </h2>
+                </div>
+              </div>
+            </section>
+            <!-- END PROMO BLOCK -->
+    
+            <!-- START ARTICLE -->
+            <div class="card article">
+              <div class="card-content">
+                <div class="media-content has-text-centered">
+                  <p class="title article-title">Version 0.9 - Demo</p>
+                  <p class="subtitle is-6 article-subtitle">
+                  </p>
+                </div>
+                <div class="media">
+                  <div class="media-center" style="margin-top: 5%">
+                    <img src="rpgmaker.jpg" class="author-image" alt="Placeholder image">
+                  </div>
+                </div>
+    
+                <div class="content article-body">
+                </div>
+              </div>
+            </div>
+            <!-- END ARTICLE -->
+          </div>
+    
+    
+    
+          <!-- Footer -->
+          <div class="container">
+            <!-- START NAV -->
+            <nav class="navbar is-white is-transparent" style="background-color: #F2DEAD;">
+              <div class="navbar-brand">
+                <a class="navbar-item brand-text" href="#">
+                </a>
+                <div class="" data-target="navMenu">
+                    <a class="navbar-item" href="index.html" style="color: black;">
+                        &copy; Nikki X and Sky Nite Digital 2017
+                      </a>
+                  <span></span>
+                </div>
+              </div>
+              </div>
+            </nav>
+    </body>
+    
+    </html>
+    
